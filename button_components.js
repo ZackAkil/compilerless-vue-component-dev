@@ -2,7 +2,11 @@
 var style = document.createElement('style');
 style.innerHTML = `
 
-.red { color: #F00; font-size: 30px; border: blue dashed 2px;}
+.red { 
+    color: #F00; 
+    font-size: 30px; 
+    border: blue dashed 2px;
+}
 
 `;
 document.getElementsByTagName('head')[0].appendChild(style);
