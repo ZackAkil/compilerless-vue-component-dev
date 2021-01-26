@@ -13,7 +13,7 @@ Just testing out how I could potentially build with fully contained components (
 - But for bigger apps separate fully contained files would be nice
 - Also I build similar functionality alot so component reuse would be ideal without having to copy over massive CSS files (that's why I've went a bit over board trying to get CSS in the js files.)
 
-### What my compilerless components look like
+### What my compilerless components look like (in a single .js file)
 ```js
 // define style rules to be programtically loaded
 var style = document.createElement('style');
@@ -43,6 +43,11 @@ Vue.component('button-counter', {
     `
 })
 
+```
+
+Then I can load them in as needed with:
+```html
+<script src="button_components.js"></script>
 ```
 
 ### Downside
