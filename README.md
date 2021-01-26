@@ -44,3 +44,6 @@ Vue.component('button-counter', {
 })
 
 ```
+
+### Downside
+- VS Code currently dosn't have a syntax highlighter for this file so I'm writting alot of code as raw strings with no help 😬 
