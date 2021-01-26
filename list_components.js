@@ -2,7 +2,11 @@
 var style = document.createElement('style');
 style.innerHTML = `
 
-.list { color: blue; font-size: 20px; border: red solid 2px;}
+.list { 
+    color: blue; 
+    font-size: 20px; 
+    border: red solid 2px;
+}
 
 `;
 document.getElementsByTagName('head')[0].appendChild(style);
@@ -18,6 +22,7 @@ Vue.component('counter-list', {
     },
     template: `
     <div class="list">
+        <h3>My list component</h3>
         <p v-for="item in items">This is my item : {{item}}</p>
     </div>
     `
