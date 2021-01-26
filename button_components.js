@@ -18,6 +18,7 @@ Vue.component('button-counter', {
     },
     template: `
     <div class="red">
+        <h3>My button component</h3>
         <button v-on:click="count++">You clicked me {{ count }} times. {{title}}</button>
         <p v-for="item in items">{{item}}</p>
     </div>
