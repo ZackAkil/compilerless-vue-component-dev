@@ -1,6 +1,8 @@
 # 👨‍💻 Compilerless Vue component dev 🛠️
 Just testing out how I could potentially build with fully contained components (structure + logic + style) without needing to use a compiler.
 
+#### [Check out the beautiful test frontend](https://zackakil.github.io/compilerless-vue-component-dev/)
+
 ### Why I don't like compiling frontend stuff
 - I want to build with Vue without needed to set up loads of stuff on my local machine and have all different kinds of tool running. 
 - I want to be able to rip the source code directly from where ever it's hosted and make changes and save the code back.
