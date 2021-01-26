@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+
+<body>
+
+    <div id="app">
+
+        <h1>{{message}}</h1>
+
+        <button-counter v-bind:title="message" v-bind:items="my_list"></button-counter>
+        <counter-list v-bind:items="my_list"></counter-list>
+
+    </div>
+
+
+    <script src="button_components.js"></script>
+    <script src="list_components.js"></script>
+    <script>
+
+        // Vue
+        var app = new Vue({
+
+            el: '#app',
+            data: {
+                message: 'hello',
+                my_list: [1,2,3,4]
+            }
+        })
+
+    </script>
+</body>
