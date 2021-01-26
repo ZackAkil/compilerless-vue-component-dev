@@ -1,4 +1,4 @@
-# 👨‍💻 Compilerless Vue component dev
+# 👨‍💻 Compilerless Vue component dev 🛠️
 Just testing out how I could potentially build with fully contained components (structure + logic + style) without needed to use a compiler.
 
 ### Why I don't like compiling frontend stuff
